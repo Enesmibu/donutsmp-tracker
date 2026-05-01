@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "donuttracker",
+  "version": "1.0.0",
+  "name": "DonutSMP SubChunk Tracker",
+  "description": "DonutSMP sunucusunda y:0 altındaki chunk'larda oyuncu varlığını takip eder.",
+  "authors": ["sen"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/donuttracker/icon.png",
+
+  "environment": "client",
+
+  "entrypoints": {
+    "client": []
+  },
+
+  "mixins": [],
+
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "fabric": "*",
+    "minecraft": ">=1.21.4",
+    "meteor-client": "*"
+  }
+}
