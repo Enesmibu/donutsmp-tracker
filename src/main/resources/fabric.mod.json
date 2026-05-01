@@ -3,16 +3,17 @@
   "id": "donuttracker",
   "version": "1.0.0",
   "name": "DonutSMP SubChunk Tracker",
-  "description": "DonutSMP sunucusunda y:0 altındaki chunk'larda oyuncu varlığını takip eder.",
-  "authors": ["sen"],
+  "description": "DonutSMP sunucusunda y:0 altindaki chunklarda oyuncu varligini takip eder.",
+  "authors": ["Enesmibu"],
   "contact": {},
   "license": "MIT",
-  "icon": "assets/donuttracker/icon.png",
 
   "environment": "client",
 
   "entrypoints": {
-    "client": []
+    "meteor": [
+      "com.donuttracker.addon.DonutTrackerAddon"
+    ]
   },
 
   "mixins": [],
